@@ -1,0 +1,100 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: beige;
+}
+
+.container-navbar {
+    background-color: rgb(185, 117, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar { 
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.li-navbar:hover {
+    background-color: rgb(92, 50, 10);
+    transition: .2s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+}
+
+.a-navbar{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.container-content {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.konten {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-content, .h2-conten, .h2-tri, .h2-for, .h2-fif, .h2-six, .h2-sev, .h2-eit {
+    border: 1 px solid black; /* Hanya untuk kejelasan visual */
+    padding: 10 px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.h3-tu, .h3-tri, .h3-sev, .h3-fif, .h3-nin {
+    margin-left: 50px; /* Atur jarak antara paragraf dengan properti margin-left */
+    color: rgb(75, 39, 9);
+    padding: 10 px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+.img-content {
+    width: 50%;
+    height: 70%;
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: beige;
+    /* display: flex; */
+    justify-content: left;
+    align-items: center;
+}
+
+.h3-footer {
+    font-size: 20px;
+}
+
+.h3-align {
+    font-size: 20px;
+}
